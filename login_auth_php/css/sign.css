@@ -1,0 +1,41 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(images/blue.jpeg);
+    background-size: cover;
+}
+
+.signup-form
+{
+    width: 100%;
+    background:transparent;
+    padding: 20px;
+    margin: 8% auto 0;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+label
+{
+    font-style: oblique;
+    font-size: larger;
+    margin-right: 50px;
+    align-items: center;
+
+}
+input
+{
+    margin: solid 5px #000;
+    padding: 5px;
+    border-radius: 5px;
+}
+h1{
+    font-size: "upper";
+}
+
+
