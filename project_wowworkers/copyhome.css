@@ -1,0 +1,348 @@
+*{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+  }
+  
+  .img-responsive{
+    border-radius: 50%;
+    height:80px;
+    width: 80px;
+    float: left;
+    margin: 10px 20px;
+    background-repeat: no-repeat;
+  }
+  .container-nav .icons .fa-bars{
+    display: none;
+  }
+  
+  .login-form{
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+  }
+  .text-right{
+    text-align: right;
+  }
+  .text-center{
+    text-align: center;
+    vertical-align: middle;
+  }
+  .text-left{
+    text-align: left;
+  }
+  .text-white{
+    color: white;
+  }
+  
+  .clearfix{
+    clear: both;
+    float: none;
+  }
+  
+  li a{
+    padding: 5px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid  transparent;
+    transition: border-bottom 0.5s;
+    margin-left: 2px;
+    text-decoration: none;
+  }
+  li a:hover {
+    border-bottom: 2px solid rgb(46, 130, 163);
+    color: black;
+  }
+  
+  .footer{
+    height: 100px;
+    background-image: linear-gradient(to right, #0676df, #673dc9);
+    width: 100%;
+    margin: 0 auto;
+  
+  }
+  .footer .cpryt{
+    padding-top: 40px;
+  }
+  
+  .footer .cpryt .cpny{
+    color: aqua;
+  }
+  .footer .cpryt .cpny:hover{
+    border-bottom: 2px solid skyblue;
+  }
+  
+  
+  
+  /* CSSS for navbar section */
+  .navbar{
+    background: linear-gradient(340deg, rgba(2,0,36,1) 0%, rgba(252,189,252,1) 50%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: 100px;
+    /* overflow: hidden; */
+  }
+  
+  .menu{
+    line-height: 100px;
+  }
+  .menu ul{
+    list-style-type: none;
+    
+  }
+  
+  .menu ul li{
+    display: inline;
+    padding: 1%;
+    width: 100%;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* CSS for Social */
+  .social ul{
+    list-style-type: none;
+  }
+  .social ul li{
+    display: inline;
+    padding: 1%;
+  }
+  .social ul li .nav-a{
+    padding: 10px;
+    margin-bottom: 200px;
+  }
+  
+  
+  @media screen and (max-width: 600px){
+    .img-responsive{
+        height: 60px;
+    }
+  .navbar{
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+  }
+  .menu{
+    margin-top: 14%;
+    position: absolute;
+    width: 100%;
+    max-height: 0;
+    color: #222;
+    max-height: 100%;
+    display: none;
+    transition: all .2s ease-in-out;
+    z-index: 9;
+  }
+  .sidenav{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: #fff;
+    align-items: flex-start;
+    padding: 2px;
+    margin-top: 8vh;
+    cursor: pointer;
+    background: #976df8;
+  }
+  .sidenav li{
+
+
+    background-color: rgb(109, 86, 240);
+  }
+   
+    .sidenav a{
+        color: #000;
+    }
+    .show-menu{
+        display: block;
+        
+        
+    }
+  .container-nav .icons .fa-bars{
+    color: #fff;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 999;
+    display: block;
+    
+  }
+  }
+
+  header.masthead {
+    padding-top: 10rem;
+    padding-bottom: calc(30rem - 4.5rem);
+    background: linear-gradient(to bottom, rgba(17, 62, 146, 0.8) 0%, rgba(17, 62, 146, 0.8) 100%), url(/images/customer.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    
+}
+.btn
+{
+    color: #fff;
+}
+
+.masthead-btn-1
+{
+  position: absolute;
+  margin: 10% 30%;
+  padding: 10px;
+  border-radius: 20px;
+  width: 10%;
+  font-weight: bold;
+  font-size: medium; 
+  background-color: #673dc9;
+  color: #fff;
+  border-color: #fff;
+  cursor: pointer;
+ 
+}
+@media screen and (max-width: 900px) {
+  .masthead-btn-1 {
+    width: 50%;
+    display: block;
+    margin: 10%;
+    position: absolute;
+    left: 20%;
+    padding: 15px;
+    border-radius: 40px;
+  }
+}
+
+
+
+.masthead-btn-2
+{
+ 
+  position: absolute;
+  margin: 10% 60% ;
+  padding: 10px;
+  border-radius: 20px;
+  width: 10%;
+  font-weight: bold;
+  font-size: medium;  
+  background-color: #673dc9;
+  color: #fff;
+  border-color: #fff;
+  cursor: pointer;
+
+}
+@media screen and (max-width: 900px) {
+  .masthead-btn-2 {
+    width: 50%;
+    display: block;
+    margin: 30%;
+    position: absolute;
+    padding: 15px;
+    border-radius: 40px;
+  }
+}
+
+.col 
+{
+  position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.col-lg
+{
+  position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.c-row
+{
+  display: flex;
+  flex-direction: row;
+  gap: 5%;
+  margin-top: 20px;
+  margin-left: 13%;
+}
+.team-container
+{
+  text-align: center;
+  padding: 20px;
+}
+.cate-img
+{
+ 
+  cursor: pointer;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+
+.cate-img img::before
+{
+  cursor: pointer;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cate-img img::after:hover
+{
+  cursor: pointer;
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.cate-down
+{
+  display: flex;
+  flex-direction: row;
+  gap: 7%;
+  position: relative;
+  justify-content: center;
+  margin-top: 3%            ;   
+}
+@media screen and (max-width: 900px) {
+  .c-row{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    column-gap: 30px;
+    gap: 30px;
+    margin-top: 0px; 
+    margin-left: 6%;
+  }
+  .cate-down{
+    position: relative;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 6%;
+    margin-right: 3%;
+    gap: 30px;
+    column-gap: 30px;
+  }
+ 
+ }
+
+.line
+{
+  border-top: 0px #eee;
+}
+
+
+
+
+

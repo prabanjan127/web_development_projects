@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+       
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css" integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5" crossorigin="anonymous">
+       
+        <title>WoW workers</title>
+        <link href="arun.css" rel="stylesheet">
+    </head>
+    <body>
+        <section class="navbar">
+            <div class="container-nav">
+                <div class="logo">
+                    <img src="images/vsimage.jpeg" alt="Logo" class="img-responsive">   
+                </div>
+    
+                <div class="menu text-right">
+                    <ul class="sidenav">
+                        <li>
+                            <a class="nav-a" href="#">Home</a>
+                        </li>
+                        <li>
+                            <a class="nav-a" href="#">Category</a>
+                        </li>
+                        <li>
+                            <a class="nav-a" href="#">Sub-Category</a>
+                        </li>
+                        <li>
+                            <a class="nav-a" href="#">Order</a>
+                        </li>
+                        <li>
+                            <a class="nav-a" href="#">Logout</a>
+                        </li>
+                       
+                    </ul>
+                </div>
+    
+                <div class="icons">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+        </section>
+        <script>
+            let menuLinks = document.querySelector('.menu');
+            let hamburger = document.querySelector('.fa-bars')
+    
+            hamburger.addEventListener('click',()=>{
+                menuLinks.classList.toggle('show-menu') 
+            })
+        </script>
+
+
+       
+                    
+    </body>
+</html>

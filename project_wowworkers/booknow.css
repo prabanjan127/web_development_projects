@@ -1,0 +1,122 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body 
+{
+    
+  background-image: radial-gradient(circle, #786bf0 0%, #543594 100%);
+  font-family: Verdana, Tahoma, sans-serif;
+  }  
+
+
+  .formBx {
+    position: relative;
+    margin: 90px auto 50px;
+    width: 30%;
+    background: linear-gradient(0deg, rgb(10, 35, 104), #6379f5);
+    padding: 15px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 5px 5px 8px rgb(129, 154, 181 , 0.43), -6px -6px 10px rgb(255 255 255);
+    
+  }
+
+  input
+  {
+      padding: 10px;
+      width: 50%;
+      border-radius: 20px;
+      box-shadow: 5px 5px 8px rgb(129, 154, 181 , 0.43), -6px -6px 10px rgb(14, 23, 150);
+      background-color: #dcdaee;
+  }
+  p{
+      padding: 5px;
+      color: white; 
+      text-align: left;
+      font-weight: bold;
+  }
+  h1
+  {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    font-weight: bold;
+    padding: 2px;
+  }
+  .form-header
+  {
+    box-shadow: 5px 5px 8px rgba(28, 102, 182, 0.43), -6px -6px 10px rgb(9, 7, 114);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  hr{
+    border: 2px solid rgb(4, 21, 97);
+  }
+  
+  .form-footer button[type="submit"]
+{
+  background: #100849;
+  border-radius: 100px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: medium;
+  cursor: pointer;
+  border: #00d4ff;
+  padding: 15px;
+  
+  background-image: linear-gradient(to right, #242f96 0%, #8fd3f4 51%, #8c7ce6 100%);
+  
+
+}
+.form-footer button[type="submit"]:hover
+{
+  background: #21115a;
+}
+.form-footer button[type="reset"]
+{
+  background: #bbe5f5;
+  border-radius: 100px;
+  color: #fff;
+  font-weight: bolder;
+  font-size: medium;
+  cursor: pointer;
+  border: #00d4ff;
+  padding: 15px;
+  background-image: linear-gradient(to right, #8490fa 0%, #8fd3f4 51%, #3a25af 100%);
+ 
+  
+}
+.form-footer button[type="reset"]:hover
+{
+  background: #21115a;
+}
+
+@media screen and (max-width: 900px) {
+  .formBx, p{
+    width: 100%;
+    margin-top: 20px;
+  }
+}
+.form-footer
+{
+  padding: 25px;
+}
+
+section
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+}
+
+a
+{
+  color: white;
+}
